@@ -1,0 +1,94 @@
+ body {    font-family: 'Open Sans', Arial, Tahoma; background-image: url(../img/gitara-body.jpg); background-repeat: no-repeat; background-color: #9f040a;}
+     table{
+/*     border-left: 4px solid #e3e3e3;*/
+     }   
+     table tr td:first-child{ border-right: 4px solid #9B9292; }
+     td {
+        width: 40px;
+        height:20px;
+        background-color: aliceblue;
+        text-align: right;    
+            border-left: 1px solid #e3e3e3;
+            padding: 5px;
+        }
+     td span {
+/*         color:#313131;*/
+/*            opacity: 0.1;*/
+     }
+     td:nth-child(6), td:nth-child(8), td:nth-child(11), td:nth-child(13) {border-right:4px solid #3e3e3e;}
+    
+     .left {float: left; padding :20px;}
+     #dzwieki, .acords {margin: 10px;}
+     .acords {width: 80%; margin: 20px auto; padding: 30px; border-radius: 10px; border: 1px solid #F2F6FB; box-shadow: 0px 0px 3px 3px #F2F6FB; position: relative; background-color: rgba(255,255,255,0.8);}
+     .acords a {display: inline-block; height: 40px; color: brown; font-size: 16px; font-weight: 600; margin-top: 20px;}
+    
+     th span {margin-left: 50px; color: #cccccc;}
+     #dzwieki a {
+         width: 50px; 
+         height:35px; 
+         border-radius: 3px; 
+         background-color: beige; 
+         box-shadow: 0px 0px 2px 2px #ccc; 
+         margin-right: 20px; 
+         display: inline-block; 
+         text-align: center; 
+         PADDING: 10PX; 
+         BOX-SIZING: BORDER-BOX;
+         cursor: pointer;
+         
+     }
+    .clear {clear: both;}
+  
+    .button {width: 100px; height: 100px; line-height: 100px; border: 1px solid #0B7190; background: #0A8CB3; border-radius: 35px; color: white; text-align: center;  margin: 20px; position: absolute;
+    right: 0px; top: 90px; cursor:default;}
+    select {width: 100px; padding: 3px; border-radius: 3px; border: 1px solid #C6DBF5;}
+    .acords div > *{ margin-right: 25px;}
+    .gryf table {margin: auto; background-color: rgba(255,255,255,0.2)}
+
+    #piano {width: 800px; margin: 20px auto;}
+    #piano .bialy {width: 40px; height: 130px; background-color: white; border: 1px solid #ccc; display: inline-block; position: relative; }
+    #piano .czarny {position: relative; width: 0px;display: inline-block; top: -130px; left: -22px; z-index: 2; color: white;}
+    #piano .czarny .klawisz {position:absolute; width: 40px; height: 90px; background-color: black; border: 1px solid #ccc;}
+    
+#piano .bialy span, #piano .czarny span {position: absolute; bottom: 0px; width: 40px; text-align: center;}
+
+    radio {width: 20px; height: 20px;}
+   
+    #dzwieki a.PRYMA {background-color: rgb(54, 116, 191); color: white; position: relative;}
+    #dzwieki a.PRYMA::after {content: 'pryma';position: absolute; top: 35px; left: 0px; color:rgb(54, 116, 191); }
+    
+    #dzwieki a.SEKUNDA {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.SEKUNDA::after {content: 'sekunda';position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+    #dzwieki a.KWARTA {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.KWARTA::after {content: 'kwarta';position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+    #dzwieki a.TERCJA_M {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.TERCJA_M::after {content: 'tercja m';position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+    #dzwieki a.TERCJA_W {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.TERCJA_W::after {content: 'tercja w';position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+    #dzwieki a.KWINTA {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.KWINTA::after {content: 'kwinta';position: absolute; top: 35px; left: 0px; color:#3A696C; }
+    
+    #dzwieki a.SEKSTA {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.SEKSTA::after {content: 'seksta';position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+    #dzwieki a.TRYTON {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.TRYTON::after {content: 'tryton';position: absolute; top: 35px; left: 0px; color:#3A696C; }
+    
+    #dzwieki a.SEPTYMA {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.SEPTYMA::after {content: 'septyma'; position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+    #dzwieki a.NONA {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.NONA::after {content: 'nona'; position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+    #dzwieki a.UNDECYMA {background-color: #3A696C; color: white; position: relative;}
+    #dzwieki a.UNDECYMA::after {content: 'undecyma'; position: absolute; top: 35px; left: 0px; color:#3A696C; }
+
+
+    .row {margin-bottom: 20px;}
+    .acords label {display: inline-block; margin: 0px 20px 10px 0px; min-width: 300px;}
+    input[type="radio"] {width: 15px; height: 15px; margin-left:20px; }
+    .help {display: none;}
