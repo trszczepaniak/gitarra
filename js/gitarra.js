@@ -64,7 +64,7 @@ var i;
     for (i = 0; i < x.length; i++) {x[i].style.backgroundColor = "#489BFF"; } }
 
 
-var gama = ["c", "cis", "d", "dis", "e", "f", "fis", "g", "gis", "a", "b", "h"];
+
 
 
 chordsAll = function() {
