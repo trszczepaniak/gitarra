@@ -42,7 +42,7 @@
     .button {width: 100px; height: 100px; line-height: 100px; border: 1px solid #0B7190; background: #0A8CB3; border-radius: 35px; color: white; text-align: center;  margin: 20px; position: absolute;
     right: 0px; top: 90px; cursor:default;}
     select {width: 100px; padding: 3px; border-radius: 3px; border: 1px solid #C6DBF5;}
-    .acords div > *{ margin-right: 25px;}
+/*    .acords div > *{ margin-right: 25px;}*/
     .gryf table {margin: auto; background-color: rgba(255,255,255,0.2)}
 
     #piano {width: 800px; margin: 20px auto;}
@@ -89,6 +89,6 @@
 
 
     .row {margin-bottom: 20px;}
-    .acords label {display: inline-block; margin: 0px 20px 10px 0px; min-width: 300px;}
+/*    .acords label {display: inline-block; margin: 0px 20px 10px 0px; min-width: 300px;}*/
     input[type="radio"] {width: 15px; height: 15px; margin-left:20px; }
     .help {display: none;}
